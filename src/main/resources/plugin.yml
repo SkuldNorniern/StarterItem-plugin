@@ -1,0 +1,7 @@
+name: StarterItem
+version: '${project.version}'
+main: me.skuldnorniern.starteritem.StarterItem
+api-version: 1.18
+authors: [ SkuldNorniern ]
+description: Managing First time server joiner's item
+website: http://sncouncil.com
