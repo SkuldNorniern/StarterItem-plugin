@@ -31,9 +31,6 @@ public class listener implements Listener {
             List<String> reslist = plugin.getConfig().getStringList("advance_reservation");
             String name = p.getDisplayName();
             boolean bol = reslist.contains(name);
-            System.out.println(reslist);
-            System.out.println(name);
-            System.out.println(reslist.contains(name));
             if(bol) {
                 if (!(p.hasPlayedBefore())) {
                     ItemStack stack = new ItemStack(Material.STONE_AXE,1);
@@ -50,11 +47,16 @@ public class listener implements Listener {
                     Bukkit.broadcastMessage("Here is your pre reservation reward! " + p.getDisplayName());
                     p.getInventory().addItem(stack);
                 }
+                else{
+                    ItemStack stack = new ItemStack(Material.STONE_AXE,1);
+                    Bukkit.broadcastMessage("Here is your welcome reward! " + p.getDisplayName());
+                    p.getInventory().addItem(stack);
+                }
+
             }
             else
             {
                 ItemStack stack = new ItemStack(Material.STONE_AXE,1);
-
                 Bukkit.broadcastMessage("Here is your welcome reward! " + p.getDisplayName());
                 p.getInventory().addItem(stack);
             }
