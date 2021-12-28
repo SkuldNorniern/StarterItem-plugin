@@ -4,7 +4,7 @@ Plugin that gives an unbreakable stone axe for who pre reserved the server
 > A great communication method from the stone age
 
 <div align="center">
-    <img src="https://github.com/SkuldNorniern/StarterItem-plugin/blob/main/images/sample.png" alt="Sample Image" width="140" height="140"></img>
+    <img src="https://github.com/SkuldNorniern/StarterItem-plugin/blob/main/images/sample.png" alt="Sample Image" width="642" height="336"></img>
 </div>
 
 
